@@ -2,9 +2,8 @@ public class ConstrutorConsulta {
     public static void main (String [] args){
         Consulta consulta1= new Consulta();
         Consulta consulta2= new Consulta ("29/08/2025");
-        Consulta consulta3= new Consulta ("29/08/2025", "Larissa" );
-        Consulta consulta4= new Consulta ("29/08/2025", "Larissa", "Isabella" );
-
+        Consulta consulta3= new Consulta ("29/08/2025", "ana rosa" );
+        Consulta consulta4= new Consulta ("29/08/2025", "ana rosa", "Beatriz" );
         System.out.println ("-------- Detalhes das Consultas: -------");
         System.out.println ("----- Consulta 01 -----");
         System.out.println ("----- Consulta 02 -----");
